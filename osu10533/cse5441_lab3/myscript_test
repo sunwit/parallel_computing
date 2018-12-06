@@ -1,0 +1,2 @@
+#PBS -l nodes=1:ppn=2
+time /users/PAS1421/osu10533/cse5441_lab3/lab3_omp  2  < /fs/project/PAS1421/PC_data_x1 > /users/PAS1421/osu10533/cse5441_lab3/testResult.txt

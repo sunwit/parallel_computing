@@ -1,0 +1,18 @@
+0 A 0 0
+1 B 2 0
+2 C 4 0
+3 D 8 0
+4 A 16 0
+0 B 32 0
+1 C 64 0
+2 D 100 0
+3 A 200 0
+4 B 256 0
+0 C 512 0
+1 D 1000 0
+total time of producer and consumer measured by clock(2):
+producer takes 0 clicks 0.000000 seconds.
+consumer takes 0 clicks 0.000000 seconds.
+total time of producer and consumer measured by time(2):
+producer takes 0.000000 seconds.
+consumer takes 0.000000 seconds.

@@ -1,0 +1,78 @@
+*** Error in `/users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary': free(): invalid next size (normal): 0x00000000010e17e0 ***
+======= Backtrace: =========
+/lib64/libc.so.6(+0x7c619)[0x2ab3cc211619]
+/lib64/libc.so.6(fclose+0x155)[0x2ab3cc1ffc15]
+/lib64/libcuda.so.1(+0x1feb65)[0x2ab3cc756b65]
+/lib64/libcuda.so.1(+0x1d1c03)[0x2ab3cc729c03]
+/lib64/libcuda.so.1(+0xf0718)[0x2ab3cc648718]
+/lib64/libcuda.so.1(cuInit+0x4d)[0x2ab3cc77ec7d]
+/users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary[0x41ffb4]
+/users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary[0x421563]
+/lib64/libpthread.so.0(pthread_once+0x50)[0x2ab3cb4e6e20]
+/users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary[0x455659]
+/users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary[0x421b8e]
+/users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary[0x443602]
+/users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary[0x403ad0]
+/lib64/libc.so.6(__libc_start_main+0xf5)[0x2ab3cc1b6c05]
+/users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary[0x4036f9]
+======= Memory map: ========
+00400000-0046f000 r-xp 00000000 00:32 32113                              /users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary
+0066e000-00671000 r--p 0006e000 00:32 32113                              /users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary
+00671000-00672000 rw-p 00071000 00:32 32113                              /users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary
+00672000-00673000 rw-p 00000000 00:00 0 
+010c7000-010f9000 rw-p 00000000 00:00 0                                  [heap]
+2ab3cb0ae000-2ab3cb0cf000 r-xp 00000000 00:23 3074198668                 /usr/lib64/ld-2.17.so
+2ab3cb0cf000-2ab3cb0d3000 rw-p 00000000 00:00 0 
+2ab3cb104000-2ab3cb10b000 rw-p 00000000 00:00 0 
+2ab3cb2cf000-2ab3cb2d0000 r--p 00021000 00:23 3074198668                 /usr/lib64/ld-2.17.so
+2ab3cb2d0000-2ab3cb2d1000 rw-p 00022000 00:23 3074198668                 /usr/lib64/ld-2.17.so
+2ab3cb2d1000-2ab3cb2d2000 rw-p 00000000 00:00 0 
+2ab3cb2d2000-2ab3cb2d9000 r-xp 00000000 00:23 3072817460                 /usr/lib64/librt-2.17.so
+2ab3cb2d9000-2ab3cb4d8000 ---p 00007000 00:23 3072817460                 /usr/lib64/librt-2.17.so
+2ab3cb4d8000-2ab3cb4d9000 r--p 00006000 00:23 3072817460                 /usr/lib64/librt-2.17.so
+2ab3cb4d9000-2ab3cb4da000 rw-p 00007000 00:23 3072817460                 /usr/lib64/librt-2.17.so
+2ab3cb4da000-2ab3cb4f1000 r-xp 00000000 00:23 3072817456                 /usr/lib64/libpthread-2.17.so
+2ab3cb4f1000-2ab3cb6f0000 ---p 00017000 00:23 3072817456                 /usr/lib64/libpthread-2.17.so
+2ab3cb6f0000-2ab3cb6f1000 r--p 00016000 00:23 3072817456                 /usr/lib64/libpthread-2.17.so
+2ab3cb6f1000-2ab3cb6f2000 rw-p 00017000 00:23 3072817456                 /usr/lib64/libpthread-2.17.so
+2ab3cb6f2000-2ab3cb6f6000 rw-p 00000000 00:00 0 
+2ab3cb6f6000-2ab3cb6f8000 r-xp 00000000 00:23 3072523324                 /usr/lib64/libdl-2.17.so
+2ab3cb6f8000-2ab3cb8f8000 ---p 00002000 00:23 3072523324                 /usr/lib64/libdl-2.17.so
+2ab3cb8f8000-2ab3cb8f9000 r--p 00002000 00:23 3072523324                 /usr/lib64/libdl-2.17.so
+2ab3cb8f9000-2ab3cb8fa000 rw-p 00003000 00:23 3072523324                 /usr/lib64/libdl-2.17.so
+2ab3cb8fa000-2ab3cba6c000 r-xp 00000000 00:2a 11349432                   /usr/local/gnu/7.3.0/lib64/libstdc++.so.6.0.24
+2ab3cba6c000-2ab3cbc6c000 ---p 00172000 00:2a 11349432                   /usr/local/gnu/7.3.0/lib64/libstdc++.so.6.0.24
+2ab3cbc6c000-2ab3cbc76000 r--p 00172000 00:2a 11349432                   /usr/local/gnu/7.3.0/lib64/libstdc++.so.6.0.24
+2ab3cbc76000-2ab3cbc78000 rw-p 0017c000 00:2a 11349432                   /usr/local/gnu/7.3.0/lib64/libstdc++.so.6.0.24
+2ab3cbc78000-2ab3cbc7c000 rw-p 00000000 00:00 0 
+2ab3cbc7c000-2ab3cbd7d000 r-xp 00000000 00:23 3072523326                 /usr/lib64/libm-2.17.so
+2ab3cbd7d000-2ab3cbf7c000 ---p 00101000 00:23 3072523326                 /usr/lib64/libm-2.17.so
+2ab3cbf7c000-2ab3cbf7d000 r--p 00100000 00:23 3072523326                 /usr/lib64/libm-2.17.so
+2ab3cbf7d000-2ab3cbf7e000 rw-p 00101000 00:23 3072523326                 /usr/lib64/libm-2.17.so
+2ab3cbf7e000-2ab3cbf94000 r-xp 00000000 00:2a 11349427                   /usr/local/gnu/7.3.0/lib64/libgcc_s.so.1
+2ab3cbf94000-2ab3cc193000 ---p 00016000 00:2a 11349427                   /usr/local/gnu/7.3.0/lib64/libgcc_s.so.1
+2ab3cc193000-2ab3cc194000 r--p 00015000 00:2a 11349427                   /usr/local/gnu/7.3.0/lib64/libgcc_s.so.1
+2ab3cc194000-2ab3cc195000 rw-p 00016000 00:2a 11349427                   /usr/local/gnu/7.3.0/lib64/libgcc_s.so.1
+2ab3cc195000-2ab3cc34d000 r-xp 00000000 00:23 3072881849                 /usr/lib64/libc-2.17.so
+2ab3cc34d000-2ab3cc54d000 ---p 001b8000 00:23 3072881849                 /usr/lib64/libc-2.17.so
+2ab3cc54d000-2ab3cc551000 r--p 001b8000 00:23 3072881849                 /usr/lib64/libc-2.17.so
+2ab3cc551000-2ab3cc553000 rw-p 001bc000 00:23 3072881849                 /usr/lib64/libc-2.17.so
+2ab3cc553000-2ab3cc558000 rw-p 00000000 00:00 0 
+2ab3cc558000-2ab3cd15e000 r-xp 00000000 00:23 3072716198                 /usr/lib64/libcuda.so.396.37
+2ab3cd15e000-2ab3cd35e000 ---p 00c06000 00:23 3072716198                 /usr/lib64/libcuda.so.396.37
+2ab3cd35e000-2ab3cd4c4000 rw-p 00c06000 00:23 3072716198                 /usr/lib64/libcuda.so.396.37
+2ab3cd4c4000-2ab3cd4d3000 rw-p 00000000 00:00 0 
+2ab3cd4d3000-2ab3cd510000 r-xp 00000000 00:23 3072716201                 /usr/lib64/libnvidia-fatbinaryloader.so.396.37
+2ab3cd510000-2ab3cd70f000 ---p 0003d000 00:23 3072716201                 /usr/lib64/libnvidia-fatbinaryloader.so.396.37
+2ab3cd70f000-2ab3cd71a000 rw-p 0003c000 00:23 3072716201                 /usr/lib64/libnvidia-fatbinaryloader.so.396.37
+2ab3cd71a000-2ab3cd71f000 rw-p 00000000 00:00 0 
+2ab3d0000000-2ab3d0021000 rw-p 00000000 00:00 0 
+2ab3d0021000-2ab3d4000000 ---p 00000000 00:00 0 
+7ffd9757f000-7ffd975a3000 rw-p 00000000 00:00 0                          [stack]
+7ffd975f5000-7ffd975f7000 r-xp 00000000 00:00 0                          [vdso]
+ffffffffff600000-ffffffffff601000 r-xp 00000000 00:00 0                  [vsyscall]
+/var/spool/torque/mom_priv/jobs/4214667.owens-batch.ten.osc.edu.SC: line 18: 64191 Aborted                 /users/PAS1421/osu10533/cse5441_lab4/lab4_arbitrary < /fs/project/PAS1421/PC_data_t05000 > /users/PAS1421/osu10533/cse5441_lab4/arbi_t05000
+
+real	0m0.045s
+user	0m0.003s
+sys	0m0.006s

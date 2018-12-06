@@ -1,0 +1,4 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =2
+let g:netrw_dirhist_1='/users/PAS1421/osu10533/example'
+let g:netrw_dirhist_2='/users/PAS1421/osu10533/cse5441_lab3'

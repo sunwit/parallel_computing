@@ -1,0 +1,2 @@
+#PBS -l nodes=2:ppn=16
+time  /users/PAS1421/osu10533/cse5441_lab3/lab3_omp  32 < /fs/project/PAS1421/PC_data_t10000 > /users/PAS1421/osu10533/cse5441_lab3/32_t10000.txt

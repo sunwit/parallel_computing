@@ -1,0 +1,14 @@
+
+-----------------------
+Resources requested:
+nodes=1:ppn=28
+-----------------------
+Resources used:
+cput=00:35:46
+walltime=00:17:55
+mem=0.008GB
+vmem=0.268GB
+-----------------------
+Resource units charged (estimate):
+0.836 RUs
+-----------------------

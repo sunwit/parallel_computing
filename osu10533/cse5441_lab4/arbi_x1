@@ -1,0 +1,18 @@
+0 A 0 7
+1 B 2 29
+2 C 4 123
+3 D 8 503
+4 A 16 23
+0 B 32 63
+1 C 64 63
+2 D 100 411
+3 A 200 207
+4 B 256 287
+0 C 512 639
+1 D 1000 535
+total time of producer and consumer measured by clock(2):
+producer takes 197510000 clicks 197.509995 seconds.
+consumer takes 197500000 clicks 197.500000 seconds.
+total time of producer and consumer measured by time(2):
+producer takes 198.000000 seconds.
+consumer takes 197.000000 seconds.
